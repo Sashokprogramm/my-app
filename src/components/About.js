@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => {
-    return(
+    return (
         <>
             {/* About Card */}
             <div className="w3-card w3-margin w3-margin-top">
@@ -18,7 +18,7 @@ const About = () => {
                 </div>
             </div>
             <hr/>
-            </>
+        </>
     )
 }
 
