@@ -1,0 +1,37 @@
+.btn-more{
+    background-color:black;
+    padding: 10px 20px;
+    width:100%;
+    text-align:center;
+    color:white;
+    font-size:18px;
+    border:0
+}
+.menu{
+    background-color: coral;
+    padding: 10px;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.AllPosts{
+    margin: 70px 233px;
+}
+.tags{
+    width: 385px;
+}
+.margin {
+    margin: 57px 536px!important;
+}
+.text-center{
+    text-align: center;
+}

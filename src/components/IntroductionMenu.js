@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./About";
-import Posts from "./Posts";
+import Posts from "./PopularPosts/Posts";
 import Tags from "./Tags";
 const IntroductionMenu = () => {
     return (

@@ -1,10 +1,10 @@
 import React from "react";
 import TagsElem from "./TagsElem";
-import tags from "../constants/tags";
+import tags from "./tags";
 const Tags = () => {
          return (
         <>
-            <div className="w3-card w3-margin">
+            <div className="w3-card w3-margin tags margin">
                 <div className="w3-container w3-padding">
                 <h4>Tags</h4>
                 </div>
