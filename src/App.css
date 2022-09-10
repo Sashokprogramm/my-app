@@ -1,3 +1,7 @@
+
+.w3-light-grey{
+    background-color: none;
+}
 .btn-more{
     background-color:black;
     padding: 10px 20px;
@@ -9,8 +13,8 @@
 }
 .menu{
     background-color: coral;
-    padding: 10px;
-}
+    color: white;
+    padding: 10px;}
 .menu ul {
     list-style: none;
 }
@@ -34,4 +38,7 @@
 }
 .text-center{
     text-align: center;
+}
+.active{
+    color: red;
 }

@@ -1,6 +1,20 @@
+import { isCursorAtEnd } from "@testing-library/user-event/dist/utils";
 import React from "react";
-
+import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Header = () => {
+    const setActive = (active) => active.isActive  ? 'active' : '';   
+    const car = {
+        name:'BMW',
+        color:'Black'
+    }
+    const {name, color} = car;
+
+    // const name = car
+    // const color = car.color
+    console.log(name)
+    console.log(color)
+
     return(
         <>
             {/* Header */}
@@ -8,22 +22,13 @@ const Header = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="/">Главная</a>
+                            <NavLink to="/catalog" className={setActive}>Каталог</NavLink>
                         </li>
                         <li>
-                            <a href="/about">О нас</a>
+                            <NavLink to="/about" className={setActive}>О нас</NavLink>
                         </li>
                         <li>
-                            <a href="/form">Обратная связь</a>
-                        </li>
-                        <li>
-                            <a href="/AllPosts">Все посты</a>
-                        </li>
-                        <li>
-                            <a href="/AllTags">Все теги</a>
-                        </li>
-                        <li>
-                            <a href="/PopularPost">Все популярные посты</a>
+                            <NavLink to="/form" className={setActive}>Обратная связь</NavLink>
                         </li>
                     </ul>
                 </nav>

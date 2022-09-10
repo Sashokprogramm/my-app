@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+
+
+}
+.title{
+    text-align: center;
+}
+.catalog{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 100%;
+
+}
+.catalog_card{
+    width: 400px;
+    height: 368px;
+    padding: 40px 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.catalog_card h2 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.catalog_card p{
+    font-weight: 300;
+    font-size: 12px;
+}
+.img{
+    width: 250px;
+    height: 100%;
+    margin-left: 50px;
+}
+.catalog_card button{
+    border-radius: 20px;
+    text-align: center;
+    white-space: nowrap;
+    background: #0071e3;
+    color: #fff;
+    border: 0;
+    padding: 5px 15px;
+}
+
